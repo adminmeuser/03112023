@@ -1,0 +1,157 @@
+div {
+    width: 390px;
+    height: 70px;
+    margin: 0 auto;
+  
+}
+.bx-main{
+    width:300px;
+    height:300px;
+    background-image:url(Images/calculator.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    margin-top:50px;
+    border-radius:5%;
+    background-color:#708090;
+    
+}
+.bx-heading{
+    height:0;
+    text-align:center;
+    margin-top:80px;
+}
+a{
+    text-decoration:none;
+}
+.bx-main__button{
+    height:50px;
+    width:160px;
+    margin-top:20px;
+    margin-left: 120px;
+    background-color:#708090;
+
+}
+
+.bx-main__button:hover {
+    background-color: rgb(146, 172, 199);
+}
+  
+  .bx-cal__input {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 60px;
+    width: 360px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-left:0px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+    
+  }
+  
+  .bx-cal__input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .bx-cal__buttons--operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .bx-cal__buttons--operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  
+  .bx-cal__buttons--operators div:active {
+    font-weight: bold;
+  }
+  
+  .bx-cal__buttons--leftPanel {
+    display: inline-block;
+  }
+  
+  .bx-cal__buttons--leftPanel__numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .bx-cal__buttons--leftPanel__numbers div:hover {
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+  }
+  
+  .bx-cal__buttons--leftPanel__numbers div:active {
+    font-weight: bold;
+  }
+  
+  div.bx-cal__buttons--equal {
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 1px;
+    width: 20%;
+    height: 240px;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 0px 0px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+    transition: all .2s ease-in-out;
+    margin-left: 290px;
+    margin-top: -238px;
+  }
+  
+  div.bx-cal__buttons--equal:hover {
+    background-color: #307CF9;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #1857BB;
+  }
+  
+  div.bx-cal__buttons--equal:active {
+    font-weight: bold;
+  }
+
+@media screen and(min-width:50px) and (max-width:768px){
+    .bx-main{
+        width:500x;
+        height:auto;
+    }
+
+}
+    
+    @media screen and(min-width:769px) and (max-width:1500px){
+        .bx-main{
+            width:300px;
+            height:300px;
+        }}
